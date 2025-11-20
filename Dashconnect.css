@@ -1,0 +1,166 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+
+  body {
+    background-color: #f4f4f4;
+    padding: 2rem;
+  }
+
+  .main-title {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1.5rem;
+  }
+
+  .grid-item {
+    background: white;
+    padding: 0.5rem;
+    border-radius: 0.4rem;
+    box-shadow: 0 0 0.8rem rgba(0,0,0,0.1);
+  }
+
+  .grid-item h2 {
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .grid-item button {
+    padding: 0.5rem 1rem;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 0.4rem;
+    cursor: pointer;
+    margin: 0.4rem 0.4rem 1rem 0.4rem;
+  }
+
+  .grid-item button:hover {
+    background-color: #0056b3;
+  }
+
+  .output {
+    margin-top: 0.5rem;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 0.4rem;
+    margin-top: 0.5rem;
+  }
+
+
+  /* GitHub profile styling */
+  #github-username {
+    padding: 0.45rem 0.6rem;
+    margin: 0.4rem;
+    border: .01rem solid #ddd;
+    border-radius: 0.4rem;
+  }
+  
+  #github-output span{ 
+    font-weight: bold;
+  }
+
+  p {
+    padding: 0.5rem;
+  }
+
+
+  /* Joke styling */
+  #joke-output p span {
+    font-weight: bold;
+  }
+
+
+  /* Weather input styling */
+  #weather-city, #weather-state {
+    padding: 0.45rem 0.6rem;
+    margin: 0.4rem;
+    border: .01rem solid #ddd;
+    border-radius: 0.4rem;
+  }
+
+  #weather-city {
+    width: 45%;
+    margin: 0.4rem;
+  }
+
+  #weather-state {
+    width: 25%;
+    margin: 0.4rem;
+  }
+
+  #weather-get-btn {
+    vertical-align: top;
+    margin: 0.4rem;
+  }
+
+  #weather-api span {
+    font-weight: bold;
+  }
+
+  /* Loading spinner styling */
+  .spinner {
+    border: 4px solid #f3f3f3; /* Light grey */
+    border-top: 4px solid #007bff; /* Blue */
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+    animation: spin 1s linear infinite;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 10px;
+  }
+
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+
+  /* Exchange Rates Styling */
+  #currency-api h4 {
+    margin: 0.4rem;
+  }
+  
+  #currency-api p {
+    margin: 0.3rem;
+    font-size: 0.8rem;
+  }
+  
+  #USD, #EUR {
+    padding: 0.45rem 0.6rem;
+    margin: 0.4rem;
+    border: .01rem solid #ddd;
+    border-radius: 0.4rem;
+  }
+
+
+  /* Random Beer Styling */
+  #publicapi-output span {
+    font-weight: bold;
+  }
+  
+  #publicapi-output p {
+    margin: 0.3rem;
+    font-size: 0.8rem;
+  }
+  
+  #publicapi-output img {
+    max-width: 100px;
+    height: auto;
+    background-color: rgb(224, 224, 224);
+    border-radius: 0.4rem;
+    box-shadow: 0 0 0.8rem rgba(0,0,0,0.1);
+    padding: 0.5rem;
+    margin: 0.5rem;
+  }
