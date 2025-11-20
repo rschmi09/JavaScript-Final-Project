@@ -6,7 +6,7 @@ Apps:
   Random Cat,
   Weather,
   Currency Exchange,
-  Movies - did not want to sign up for something just for assignment. error is caught in the 'catch' and displayed,
+  Movies (did not want to sign up for something just for assignment. error is caught in the 'catch' and displayed),
   GitHub User,
   Dad Joke,
   API of Choice: Random Beer,
